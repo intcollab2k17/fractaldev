@@ -233,6 +233,119 @@ div.wpcf7-validation-errors {
 
 @media only screen and (max-width: 480px) {
 	
+	h1.tagline {
+		color: #fff;
+		font-family: "Armata",sans-serif;
+		font-size: 40px;
+		line-height: 50px;
+		margin-bottom: 20px;
+	}
+	.banner-section {
+    height: 550px !important;
+    margin-top: -80px;
+	}
+	.services-title {
+        text-align: center;
+	}
+	.services-title2 {
+        text-align: center;
+	}
+	.services-text {
+    margin-bottom: 50px;
+    margin-left: 0 !important;
+    padding: 0 10px !important;
+    text-align: center;
+	}
+	.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    border: medium none;
+    border-radius: 15px;
+	}
+	.section-title {
+    text-align: center;
+	}
+	.email-info {
+    text-align: left;
+	}
+	.half-width.left-class {
+    /* margin-bottom: 70px; */
+    margin-left: 0 !important;
+	}
+	.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.message {
+    height: 101px;
+    margin-top: 22px;
+    width: 95%;
+	}
+	.form-controller {
+    margin: 0;
+    width: 95%;
+	}
+	.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    float: left;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 6px 15px;
+    padding: 15px 25px;
+    width: 95%;
+	}
+	.footer-text {
+    text-align: center;
+	}
+	.social-icon {
+    float: none;
+    padding-bottom: 0 !important;
+    position: relative;
+    top: 5px;
+	}
+	
+}
+@media only screen and (max-width: 1024px) {
+	.form-controller {
+    margin: 0 auto;
+    width: 100%;
+	}
+	
+}
+@media only screen and (max-width: 768px) {
+	.half-width.left-class {
+    /* margin-bottom: 70px; */
+    margin-left: 0 !important;
+	}
+	.services-title {
+        text-align: center;
+	}
+	.services-title2 {
+        text-align: center;
+	}
+	.services-text {
+    margin-bottom: 50px;
+    margin-left: 0 !important;
+    padding: 0 10px !important;
+    text-align: center;
+	}
+	.footer-text {    
+    text-align: center;
+	}
+	.social-icon {
+	float: none;
+	}
+	.information-contact > .et_pb_column > .et_pb_text {
+    text-align: left;
+	}
+	
+}
+@media only screen and (max-width: 640px) {
+	.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+		border: medium none;
+		border-radius: 50px;
+		float: left;
+		font-family: "Open Sans",sans-serif;
+		font-size: 15px;
+		font-weight: 400;
+		margin: 5px 15px;
+		padding: 15px 25px;
+		width: 95%;
+	}
 	
 }
 @media only screen and (max-width: 375px) {
