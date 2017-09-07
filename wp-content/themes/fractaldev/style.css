@@ -304,6 +304,21 @@ div.wpcf7-validation-errors {
     margin: 0 auto;
     width: 100%;
 	}
+	.services-title {
+    color: #364148;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top:0px;
+	}
+	.et_pb_module.et_pb_space.et_pb_divider_2,
+	.et_pb_module.et_pb_space.et_pb_divider_0
+	{
+    display: none;
+	}
+	.right-class .et_pb_text > .services-text {
+    margin-left: 52px !important;
+	}
 	
 }
 @media only screen and (max-width: 768px) {
