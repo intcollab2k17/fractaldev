@@ -226,6 +226,9 @@ div.wpcf7-validation-errors {
     top: 5px;
 	float:right;
 }
+.social-media > li > a {
+    color: #7c8692;
+}
 
 
 
