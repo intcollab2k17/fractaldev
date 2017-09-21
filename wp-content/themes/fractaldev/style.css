@@ -1,481 +1,93 @@
-/*
-Theme Name: FractalDev
-Description: Divi Child Theme
-Author: Stratium Software
-Template: Divi_3.0.34
-Version: 1.0.0
-*/
-
-@import url("../Divi_3.0.34/style.css");
-@import url('https://fonts.googleapis.com/css?family=Armata&subset=latin-ext');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&subset=latin-ext');
-header#main-header {
-    background-color: transparent !important;
+@import url("../Divi_3.0.34/style.css");@import url('https://fonts.googleapis.com/css?family=Armata&subset=latin-ext');@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&subset=latin-ext');header#main-header{background-color:transparent !important;}
+#main-footer > div{display:none;}
+#top-menu li{display:inline-block;font-size:14px;padding-right:50px !important;}
+#top-menu > li:last-child{padding-right:0 !important;}
+.nav > li > a{color:#fff !important;}
+.et-fixed-header .nav > li > a{color:#000 !important;}
+#page-container header#main-header.et-fixed-header{background-color:#fff !important;}
+#main-header{box-shadow:none !important;}
+#logo2{display:none;}
+.et-fixed-header #logo{display:none;}
+.et-fixed-header #logo2{display:inline-block;float:none;margin-bottom:0;max-height:54%;transition:all 0.4s ease-in-out 0s;vertical-align:middle;}
+.banner-row{margin-top:100px;}
+h1.tagline{color:#fff;font-family:"Armata",sans-serif;font-size:80px;line-height:100px;}
+.tagline-text{color:#fff;font-family:"Open Sans",sans-serif;font-size:18px;font-weight:400;}
+.section-title{color:#fff;font-family:"Open Sans",sans-serif;font-size:30px;font-weight:bold;letter-spacing:5px;}
+.text-body{color:#fff;font-family:"Open Sans",sans-serif;font-size:16px;font-weight:400;letter-spacing:0;line-height:28px;}
+.contact-us-title{font-family:"Open Sans",sans-serif;font-weight:700;letter-spacing:3px;}
+.text-body2{color:#7c8692;font-family:"Open Sans",sans-serif;font-size:16px;font-weight:400;letter-spacing:0;line-height:28px;}
+.form-controller{margin:0 auto;width:65%;}
+.one-half, .one-third, .two_third, .one_fourth, .three_fourth{margin-right:1%;margin-top:3px;position:relative;width:100%;}
+.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{border:medium none;border-radius:50px;float:left;font-family:"Open Sans",sans-serif;font-size:15px;font-weight:400;margin:0 15px;padding:15px 25px;width:45%;}
+.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.message{margin-top:22px;width:95%;}
+.wpcf7-form-control.wpcf7-submit{background:transparent none repeat scroll 0 0;border:medium none;color:#188bdc;float:right;font-family:"Open Sans",sans-serif;font-size:14px;font-weight:700;position:relative;right:50px;top:-35px;}
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.wpcf7-not-valid{border:1px solid #188bdc !important;}
+span.wpcf7-not-valid-tip{color:#f00;display:none;font-size:1em;font-weight:normal;}
+div.wpcf7-validation-errors{border:0 solid #f7e700;color:#f00;}
+.social-media > li{display:inline-block;font-family:"Open Sans",sans-serif;font-size:15px;line-height:22px;list-style:outside none none;vertical-align:middle;color:#7c8692;}
+.social-media > li > i{color:#1d1d1d;font-size:33px;margin-right:20px;}
+#contact{padding-bottom:0;}
+.footer-text{color:#fff;font-family:"Open Sans",sans-serif;font-size:13px;}
+.social-icon > li{display:inline-block;list-style-type:none;margin-left:5px;}
+.et_pb_section.footer-section.et_pb_with_background.et_section_regular{margin:0 !important;padding-bottom:0;padding-top:0;}
+.image-footer-logo{position:relative;top:25px;}
+.copyright{position:relative;top:25px;}
+.services-title{color:#364148;font-size:30px;font-weight:bold;letter-spacing:5px;margin-top:80px;}
+.small-title{font-size:16px;letter-spacing:4px;}
+.services-title2{font-family:"Open Sans",sans-serif;font-size:34px;font-weight:500;letter-spacing:2px;margin-top:60px;color:#364148;}
+.services-text{color:#7c8692;font-family:"Open Sans",sans-serif;font-size:16px;font-weight:400;margin-top:30px;padding-right:100px;text-align:left;}
+.social-icon{padding-bottom:0 !important;position:relative;top:5px;float:right;}
+.social-media > li > a{color:#7c8692;}
+@media only screen and (max-width:480px){h1.tagline{color:#fff;font-family:"Armata",sans-serif;font-size:40px;line-height:50px;margin-bottom:20px;}
+.banner-section{height:550px !important;margin-top:-80px;}
+.services-title{text-align:center;}
+.services-title2{text-align:center;}
+.services-text{margin-bottom:50px;margin-left:0 !important;padding:0 10px !important;text-align:center;}
+.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{border:medium none;border-radius:15px;}
+.section-title{text-align:center;}
+.email-info{text-align:left;}
+.half-width.left-class{margin-left:0 !important;}
+.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.message{height:101px;margin-top:22px;width:95%;}
+.form-controller{margin:0;width:95%;}
+.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{float:left;font-family:"Open Sans",sans-serif;font-size:15px;font-weight:400;margin:6px 15px;padding:15px 25px;width:95%;}
+.footer-text{text-align:center;}
+.social-icon{float:none;padding-bottom:0 !important;position:relative;top:5px;}
 }
-#main-footer > div {
-    display: none;
+@media only screen and (max-width:1024px){.form-controller{margin:0 auto;width:100%;}
+.services-title{color:#364148;font-size:30px;font-weight:bold;letter-spacing:5px;margin-top:0px;}
+.et_pb_module.et_pb_space.et_pb_divider_2,
+.et_pb_module.et_pb_space.et_pb_divider_0{display:none;}
+.right-class .et_pb_text > .services-text{margin-left:52px !important;}
 }
-#top-menu li {
-    display: inline-block;
-    font-size: 14px;
-    padding-right: 50px !important;
+@media only screen and (max-width:768px){.half-width.left-class{margin-left:0 !important;}
+.services-title{text-align:center;}
+.services-title2{text-align:center;}
+.services-text{margin-bottom:50px;margin-left:0 !important;padding:0 10px !important;text-align:center;}
+.footer-text{text-align:center;}
+.social-icon{float:none;}
+.information-contact > .et_pb_column > .et_pb_text{text-align:left;}
 }
-#top-menu > li:last-child {    
-    padding-right: 0 !important;
+@media only screen and (max-width:640px){.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{border:medium none;border-radius:50px;float:left;font-family:"Open Sans",sans-serif;font-size:15px;font-weight:400;margin:5px 15px;padding:15px 25px;width:95%;}
 }
-.nav > li > a {
-    color: #fff !important;
+@media only screen and (max-width:375px){.social-icon{padding-bottom:0 !important;position:relative;top:5px;float:none;}
+.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{border:medium none;border-radius:50px;float:left;font-family:"Open Sans",sans-serif;font-size:15px;font-weight:400;margin:5px 15px;padding:15px 25px;width:95%;}
+.form-controller{margin:0 auto;width:100%;}
+.footer-text{color:#fff;font-family:"Open Sans",sans-serif;font-size:12px;text-align:center;}
+.social-media > li{color:#7c8692;display:inline-block;font-family:"Open Sans",sans-serif;font-size:12px;line-height:22px;list-style:outside none none;vertical-align:middle;}
+.banner-section{height:600px !important;margin-top:-80px;}
+h1.tagline{color:#fff;font-family:"Armata",sans-serif;font-size:50px;line-height:59px;}
+.banner-row{margin-top:0px;}
+.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.message{height:101px;margin-top:22px;width:95%;}
+.email-info{text-align:left;}
+.half-width.left-class{margin-left:0 !important;}
+.services-title{text-align:center;}
+.services-title2{text-align:center;}
+.services-text{margin-bottom:50px;margin-left:0 !important;padding:0 10px !important;text-align:center;}
+.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{border:medium none;border-radius:15px;}
+.section-title{text-align:center;}
 }
-.et-fixed-header .nav > li > a {
-	 color: #000 !important;
+@media only screen and (max-width:320px){.banner-section{height:500px !important;margin-top:-80px;}
+.social-media > li > i{color:#1d1d1d;font-size:33px;margin-right:10px;}
+.footer-text{color:#fff;font-family:"Open Sans",sans-serif;font-size:10px;text-align:center;}
+h1.tagline{color:#fff;font-family:"Armata",sans-serif;font-size:28px;line-height:35px;}
 }
-#page-container header#main-header.et-fixed-header {
-	background-color: #fff !important;
-}
-#main-header{
-	box-shadow:none !important;
-}
-#logo2 {display: none;}
-.et-fixed-header #logo {display:none;}
-.et-fixed-header #logo2 {
-	display: inline-block;
-    float: none;
-    margin-bottom: 0;
-    max-height: 54%;
-    transition: all 0.4s ease-in-out 0s;
-	vertical-align: middle;
-}
-
-.banner-row {
-    margin-top: 100px;
- }
-h1.tagline {
-    color: #fff;
-    font-family: "Armata",sans-serif;
-    font-size: 80px;
-    line-height: 100px;
-}
-.tagline-text {
-    color: #fff;
-    font-family: "Open Sans",sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-}
-.section-title {
-    color: #fff;
-    font-family: "Open Sans",sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    letter-spacing: 5px;
-}
-.text-body {
-    color: #fff;
-    font-family: "Open Sans",sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 28px;
-}
-.contact-us-title {
-    font-family: "Open Sans",sans-serif;
-    font-weight: 700;
-    letter-spacing: 3px;
-}
-.text-body2 {
-    color: #7c8692;
-    font-family: "Open Sans",sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 28px;	
-}
-.form-controller {
-    margin: 0 auto;
-    width: 65%;
-}
-
-.one-half, .one-third, .two_third, .one_fourth, .three_fourth {
-    /* float: left; */
-    margin-right: 1%;
-    margin-top: 3px;
-    position: relative;
-    width: 100%;
-}
-
-.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
-    border: medium none;
-    border-radius: 50px;
-    float: left;
-    font-family: "Open Sans",sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    margin: 0 15px;
-    padding: 15px 25px;
-    width: 45%;
-}
-.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.message {
-    margin-top: 22px;
-    width: 95%;
-}
-
-.wpcf7-form-control.wpcf7-submit {
-    background: transparent none repeat scroll 0 0;
-    border: medium none;
-    color: #188bdc;
-    float: right;
-    font-family: "Open Sans",sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    position: relative;
-    right: 50px;
-    top: -35px;
-}
-input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.wpcf7-not-valid {
-    border: 1px solid #188bdc !important;
-}
-span.wpcf7-not-valid-tip {
-    color: #f00;
-    display: none;
-    font-size: 1em;
-    font-weight: normal;
-}
-div.wpcf7-validation-errors {
-    border: 0 solid #f7e700;
-    color: #f00;
-}
-
-.social-media > li {
-    display: inline-block;
-    font-family: "Open Sans",sans-serif;
-    font-size: 15px;
-    line-height: 22px;
-    list-style: outside none none;
-    vertical-align: middle;
-	color:#7c8692;
-}
-.social-media > li > i {
-    color: #1d1d1d;
-    font-size: 33px;
-    margin-right: 20px;
-}
-#contact {
-    padding-bottom: 0;
-}
-
-/* .footer-section{
-    background-color: #188bdc !important;
-    max-height: 125px;
-	height:auto;
-} */
-.footer-text {
-    color: #fff;
-    font-family: "Open Sans",sans-serif;
-    font-size: 13px;
-}
-
-.social-icon > li {
-    display: inline-block;
-    list-style-type: none;
-    margin-left: 5px;
-}
-.et_pb_section.footer-section.et_pb_with_background.et_section_regular {
-    margin: 0 !important;
-    padding-bottom: 0;
-    padding-top: 0;
-}
-.image-footer-logo{
-    position: relative;
-    top: 25px;
-}
-.copyright {
-    position: relative;
-    top: 25px;
-}
-/* SERVICES */
-.services-title {
-    color: #364148;
-    font-size: 30px;
-    font-weight: bold;
-    letter-spacing: 5px;
-    margin-top: 80px;
-}
-.small-title {
-    font-size: 16px;
-    letter-spacing: 4px;
-}
-.services-title2 {
-    font-family: "Open Sans",sans-serif;
-    font-size: 34px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    margin-top: 60px;
-	color:#364148;
-}
-.services-text {
-    color: #7c8692;
-    font-family: "Open Sans",sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 30px;
-    padding-right: 100px;
-    text-align: left;
-}
-.social-icon {
-    padding-bottom: 0 !important;
-    position: relative;
-    top: 5px;
-	float:right;
-}
-.social-media > li > a {
-    color: #7c8692;
-}
-
-
-
-
-
-@media only screen and (max-width: 480px) {
-	
-	h1.tagline {
-		color: #fff;
-		font-family: "Armata",sans-serif;
-		font-size: 40px;
-		line-height: 50px;
-		margin-bottom: 20px;
-	}
-	.banner-section {
-    height: 550px !important;
-    margin-top: -80px;
-	}
-	.services-title {
-        text-align: center;
-	}
-	.services-title2 {
-        text-align: center;
-	}
-	.services-text {
-    margin-bottom: 50px;
-    margin-left: 0 !important;
-    padding: 0 10px !important;
-    text-align: center;
-	}
-	.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
-    border: medium none;
-    border-radius: 15px;
-	}
-	.section-title {
-    text-align: center;
-	}
-	.email-info {
-    text-align: left;
-	}
-	.half-width.left-class {
-    /* margin-bottom: 70px; */
-    margin-left: 0 !important;
-	}
-	.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.message {
-    height: 101px;
-    margin-top: 22px;
-    width: 95%;
-	}
-	.form-controller {
-    margin: 0;
-    width: 95%;
-	}
-	.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
-    float: left;
-    font-family: "Open Sans",sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    margin: 6px 15px;
-    padding: 15px 25px;
-    width: 95%;
-	}
-	.footer-text {
-    text-align: center;
-	}
-	.social-icon {
-    float: none;
-    padding-bottom: 0 !important;
-    position: relative;
-    top: 5px;
-	}
-	
-}
-@media only screen and (max-width: 1024px) {
-	.form-controller {
-    margin: 0 auto;
-    width: 100%;
-	}
-	.services-title {
-    color: #364148;
-    font-size: 30px;
-    font-weight: bold;
-    letter-spacing: 5px;
-    margin-top:0px;
-	}
-	.et_pb_module.et_pb_space.et_pb_divider_2,
-	.et_pb_module.et_pb_space.et_pb_divider_0
-	{
-    display: none;
-	}
-	.right-class .et_pb_text > .services-text {
-    margin-left: 52px !important;
-	}
-	
-}
-@media only screen and (max-width: 768px) {
-	.half-width.left-class {
-    /* margin-bottom: 70px; */
-    margin-left: 0 !important;
-	}
-	.services-title {
-        text-align: center;
-	}
-	.services-title2 {
-        text-align: center;
-	}
-	.services-text {
-    margin-bottom: 50px;
-    margin-left: 0 !important;
-    padding: 0 10px !important;
-    text-align: center;
-	}
-	.footer-text {    
-    text-align: center;
-	}
-	.social-icon {
-	float: none;
-	}
-	.information-contact > .et_pb_column > .et_pb_text {
-    text-align: left;
-	}
-	
-}
-@media only screen and (max-width: 640px) {
-	.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
-		border: medium none;
-		border-radius: 50px;
-		float: left;
-		font-family: "Open Sans",sans-serif;
-		font-size: 15px;
-		font-weight: 400;
-		margin: 5px 15px;
-		padding: 15px 25px;
-		width: 95%;
-	}
-	
-}
-@media only screen and (max-width: 375px) {
-	.social-icon {
-    padding-bottom: 0 !important;
-    position: relative;
-    top: 5px;
-	float:none;
-	}
-   .wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
-    border: medium none;
-    border-radius: 50px;
-    float: left;
-    font-family: "Open Sans",sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    margin: 5px 15px;
-    padding: 15px 25px;
-    width: 95%;
-	}
-	.form-controller {
-    margin: 0 auto;
-    width: 100%;
-	}
-	.footer-text {
-    color: #fff;
-    font-family: "Open Sans",sans-serif;
-    font-size: 12px;
-    text-align: center;
-	}	
-	.social-media > li {
-    color: #7c8692;
-    display: inline-block;
-    font-family: "Open Sans",sans-serif;
-    font-size: 12px;
-    line-height: 22px;
-    list-style: outside none none;
-    vertical-align: middle;
-	}
-	.banner-section {
-    height: 600px !important;
-    margin-top: -80px;
-	}	
-	h1.tagline {
-    color: #fff;
-    font-family: "Armata",sans-serif;
-    font-size: 50px;
-    line-height: 59px;
-	}
-	.banner-row {
-    margin-top: 0px;
-	}
-	.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.message {
-    height: 101px;
-    margin-top: 22px;
-    width: 95%;
-	}
-	.email-info {
-    text-align: left;
-	}
-	.half-width.left-class {
-    /* margin-bottom: 70px; */
-    margin-left: 0 !important;
-	}
-	.services-title {
-        text-align: center;
-	}
-	.services-title2 {
-        text-align: center;
-	}
-	.services-text {
-    margin-bottom: 50px;
-    margin-left: 0 !important;
-    padding: 0 10px !important;
-    text-align: center;
-	}
-	.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
-    border: medium none;
-    border-radius: 15px;
-	}
-	.section-title {
-    text-align: center;
-	}
-}
-@media only screen and (max-width: 320px) {
-	.banner-section {
-    height: 500px !important;
-    margin-top: -80px;
-	}	
-	.social-media > li > i {
-    color: #1d1d1d;
-    font-size: 33px;
-    margin-right: 10px;
-	}
-	.footer-text {
-    color: #fff;
-    font-family: "Open Sans",sans-serif;
-    font-size: 10px;
-    text-align: center;
-	}
-	h1.tagline {
-    color: #fff;
-    font-family: "Armata",sans-serif;
-    font-size: 28px;
-    line-height: 35px;
-	}
-}
-
-
-
-
-
-
-
-

@@ -20,13 +20,15 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+define('WP_CACHE', true); //Added by WP-Cache Manager
+define( 'WPCACHEHOME', '/var/www/fractaldev/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
 define('DB_NAME', 'fractaldev');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'fractaldev_2k17');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'stratium');
+define('DB_PASSWORD', 'hA9KWerp2fjq4VtZ');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
