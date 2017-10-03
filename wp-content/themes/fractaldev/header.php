@@ -216,7 +216,7 @@
 						<img src="<?php echo esc_attr( $logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" id="logo" data-height-percentage="<?php echo esc_attr( et_get_option( 'logo_height', '54' ) ); ?>" />
 					</a>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-					<img src="/wp-content/uploads/2017/09/fractal_logo_header.png" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" id="logo2" />
+					<img src="/fractaldev/wp-content/uploads/2017/09/fractal_logo_header.png" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" id="logo2" />
 					</a>
 				</div>
 				<div id="et-top-navigation" data-height="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>" data-fixed-height="<?php echo esc_attr( et_get_option( 'minimized_menu_height', '40' ) ); ?>">

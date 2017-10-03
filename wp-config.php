@@ -25,10 +25,10 @@ define( 'WPCACHEHOME', '/var/www/fractaldev/wp-content/plugins/wp-super-cache/' 
 define('DB_NAME', 'fractaldev');
 
 /** MySQL database username */
-define('DB_USER', 'fractaldev_2k17');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'hA9KWerp2fjq4VtZ');
+define('DB_PASSWORD', 'stratium');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
